@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  wordpress-instance:
+  - apiVersion: v2
+    created: "2022-10-11T22:47:36.056006561+03:00"
+    dependencies:
+    - name: wordpress
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 15.2.5
+    description: wordpress test
+    digest: 099142a281d4ddba2b6efd81213d279ae1855822c004dbfaca0ef8608a8fe350
+    name: wordpress-instance
+    urls:
+    - https://github.com/furmanyk/wordpress_chart/wordpress-instance-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-10-11T22:47:36.04778066+03:00"
