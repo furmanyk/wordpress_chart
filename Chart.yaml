@@ -1,0 +1,9 @@
+apiVersion: v2
+name: wordpress-instance
+version: 0.0.1
+description: wordpress test
+
+dependencies:
+  - name: bitnami/wordpress
+    version: 15.2.5
+    repository: "https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami"
